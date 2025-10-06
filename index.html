@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio – Your Name</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="#top">Your Name</a>
+        <nav class="site-nav" aria-label="Primary">
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+            <span class="visually-hidden">Menu</span>
+            <span class="nav-toggle__bar"></span>
+            <span class="nav-toggle__bar"></span>
+            <span class="nav-toggle__bar"></span>
+          </button>
+          <ul id="primary-navigation" data-open="false">
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#writing">Writing</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a class="btn btn--ghost" href="#resume">Resume</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero__layout">
+          <div class="hero__content">
+            <p class="eyebrow">Product Designer &amp; Engineer</p>
+            <h1>Crafting thoughtful experiences that balance business and user needs.</h1>
+            <p class="lead">
+              I'm <span class="placeholder">Your Name</span>, a <span class="placeholder">role</span> focused on building
+              accessible, resilient digital products. I help teams translate complex problems into intuitive solutions.
+            </p>
+            <div class="hero__actions">
+              <a class="btn" href="#work">View selected work</a>
+              <a class="btn btn--ghost" href="#contact">Let's collaborate</a>
+            </div>
+            <ul class="hero__links">
+              <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+              <li><a href="#">LinkedIn</a></li>
+              <li><a href="#">Dribbble</a></li>
+              <li><a href="#">GitHub</a></li>
+            </ul>
+          </div>
+          <div class="hero__visual">
+            <div class="portrait" aria-hidden="true">
+              <span>Portrait Placeholder</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section section--muted">
+        <div class="container">
+          <div class="section__header">
+            <p class="eyebrow">Selected Work</p>
+            <h2>Case studies and collaborations</h2>
+          </div>
+          <div class="grid grid--projects">
+            <article class="project-card">
+              <div class="project-card__media">Hero Image Placeholder</div>
+              <div class="project-card__body">
+                <h3>Project Title One</h3>
+                <p>
+                  Brief description of the project outcome. Summarize impact, highlight metrics, and mention the team or role you
+                  played.
+                </p>
+                <ul class="tag-list">
+                  <li>UX Strategy</li>
+                  <li>Design Systems</li>
+                  <li>Research</li>
+                </ul>
+                <div class="project-card__actions">
+                  <a class="btn" href="#">Read case study</a>
+                  <a class="btn btn--ghost" href="#">Live product</a>
+                </div>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-card__media">Hero Image Placeholder</div>
+              <div class="project-card__body">
+                <h3>Project Title Two</h3>
+                <p>
+                  Summarize the challenge, your contributions, and measurable results. Keep the copy concise and outcomes-focused.
+                </p>
+                <ul class="tag-list">
+                  <li>Product Strategy</li>
+                  <li>Prototyping</li>
+                  <li>Leadership</li>
+                </ul>
+                <div class="project-card__actions">
+                  <a class="btn" href="#">Read case study</a>
+                  <a class="btn btn--ghost" href="#">Live product</a>
+                </div>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-card__media">Hero Image Placeholder</div>
+              <div class="project-card__body">
+                <h3>Project Title Three</h3>
+                <p>
+                  Use this space to feature a recent collaboration or personal project. Focus on process, learnings, and value.
+                </p>
+                <ul class="tag-list">
+                  <li>UX Research</li>
+                  <li>UI Design</li>
+                  <li>Accessibility</li>
+                </ul>
+                <div class="project-card__actions">
+                  <a class="btn" href="#">Read case study</a>
+                  <a class="btn btn--ghost" href="#">Live product</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section__header section__header--split">
+            <div>
+              <p class="eyebrow">About</p>
+              <h2>A human-centered leader grounded in craft</h2>
+            </div>
+            <div>
+              <p>
+                Share a short narrative about your background, approach, and values. Highlight the industries you have worked in,
+                the scale of products you've touched, and how you partner with teams.
+              </p>
+              <p>
+                Mention accolades, speaking engagements, or community work to add credibility. Link to your resume for deeper
+                context.
+              </p>
+            </div>
+          </div>
+          <div class="about__details">
+            <div>
+              <h3>Expertise</h3>
+              <ul class="bullet-list">
+                <li>Product discovery &amp; definition</li>
+                <li>Inclusive design systems</li>
+                <li>Design leadership &amp; mentorship</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Selected partners</h3>
+              <ul class="bullet-list">
+                <li>Company One</li>
+                <li>Company Two</li>
+                <li>Company Three</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Speaking &amp; writing</h3>
+              <ul class="bullet-list">
+                <li>Conference talk title</li>
+                <li>Workshop or webinar</li>
+                <li>Podcast appearance</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--muted">
+        <div class="container testimonials">
+          <div class="section__header">
+            <p class="eyebrow">Testimonials</p>
+            <h2>Words from collaborators</h2>
+          </div>
+          <div class="grid grid--testimonials">
+            <figure class="testimonial-card">
+              <blockquote>
+                “Add a compelling quote from a teammate or client that speaks to your collaboration style and impact.”
+              </blockquote>
+              <figcaption>
+                <span class="testimonial-card__name">Name Surname</span>
+                <span class="testimonial-card__role">Title · Company</span>
+              </figcaption>
+            </figure>
+            <figure class="testimonial-card">
+              <blockquote>
+                “Share another perspective that highlights your strengths, leadership, or craft excellence.”
+              </blockquote>
+              <figcaption>
+                <span class="testimonial-card__name">Name Surname</span>
+                <span class="testimonial-card__role">Title · Company</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="writing" class="section">
+        <div class="container">
+          <div class="section__header">
+            <p class="eyebrow">Writing</p>
+            <h2>Thinking out loud about product and design</h2>
+          </div>
+          <div class="grid grid--articles">
+            <article class="article-card">
+              <p class="article-card__meta">Month 00, 20XX</p>
+              <h3><a href="#">Article title placeholder that wraps to two lines</a></h3>
+              <p>
+                A short excerpt describing the article's takeaway or why it matters. Keep it punchy to encourage clicks.
+              </p>
+            </article>
+            <article class="article-card">
+              <p class="article-card__meta">Month 00, 20XX</p>
+              <h3><a href="#">Second article headline goes here</a></h3>
+              <p>
+                Use this to showcase thought leadership, share frameworks, or document learnings from recent projects.
+              </p>
+            </article>
+            <article class="article-card">
+              <p class="article-card__meta">Month 00, 20XX</p>
+              <h3><a href="#">Third article to feature</a></h3>
+              <p>
+                Link to blog posts, newsletters, or external publications. Provide just enough context to entice readers.
+              </p>
+            </article>
+          </div>
+          <div class="section__footer">
+            <a class="btn btn--ghost" href="#">View all writing</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="section section--muted">
+        <div class="container resume">
+          <div class="section__header section__header--split">
+            <div>
+              <p class="eyebrow">Resume</p>
+              <h2>Download the full story</h2>
+            </div>
+            <div>
+              <p>
+                Offer recruiters a straightforward way to review your background. Link to a PDF, Notion page, or resume site that
+                stays up to date.
+              </p>
+              <a class="btn" href="#">Download resume</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section callout">
+        <div class="container callout__layout">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let's build the next thing together</h2>
+            <p>
+              Encourage visitors to reach out. Share your preferred channels and set expectations for response time or services.
+            </p>
+          </div>
+          <div>
+            <a class="btn btn--light" href="mailto:hello@example.com">hello@example.com</a>
+            <a class="btn btn--outline" href="#">Schedule a call</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer__layout">
+        <div>
+          <p class="logo">Your Name</p>
+          <p class="small-print">© <span id="current-year"></span> Your Name. All rights reserved.</p>
+        </div>
+        <ul class="footer__links">
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Dribbble</a></li>
+          <li><a href="#">GitHub</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
